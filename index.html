@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyPilot AI | Your AI Tutor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">StudyPilot<span>AI</span></div>
+        <div class="status">
+            <span class="status-dot"></span>
+            AI TUTOR
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <p class="eyebrow">YOUR PERSONAL AI LEARNING PARTNER</p>
+
+            <h1>Learn smarter.<br>
+                <span>Think bigger.</span>
+            </h1>
+
+            <p class="description">
+                Ask questions, understand difficult topics,
+                and build your knowledge one step at a time.
+            </p>
+        </section>
+
+        <section class="tutor-card">
+
+            <div class="card-header">
+                <div class="ai-icon">✦</div>
+
+                <div>
+                    <h2>AI Study Tutor</h2>
+                    <p>Your personal learning assistant</p>
+                </div>
+            </div>
+
+            <label for="subject">Choose your subject</label>
+
+            <select id="subject">
+                <option value="Mathematics">Mathematics</option>
+                <option value="English">English</option>
+                <option value="Science">Science</option>
+                <option value="Computer Studies">Computer Studies</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="question">What would you like to learn?</label>
+
+            <textarea
+                id="question"
+                placeholder="Example: Explain how negative numbers work..."
+                rows="5"
+            ></textarea>
+
+            <button id="askButton">
+                Ask StudyPilot AI <span>→</span>
+            </button>
+
+            <div id="answer" class="answer hidden" aria-live="polite">
+            </div>
+
+            <p class="privacy-note">
+                StudyPilot AI helps you learn and understand.
+                Always check important answers against reliable sources.
+            </p>
+
+        </section>
+
+        <footer>
+            <p>StudyPilot AI © 2026 · Built for curious minds.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
